@@ -6,7 +6,7 @@
 		"postcss-custom-properties": "9.1.1"
 	},
 	"scripts": {
-		"cat": "cat src/vars.css src/base.css > dist/adinida.css",
+		"cat": "cat src/vars.css src/base.css src/grid.css > dist/adinida.css",
 		"minify": "node_modules/.bin/csso dist/adinida.css > dist/adinida.min.css",
 		"build": "npm run cat && npm run minify"
 	}

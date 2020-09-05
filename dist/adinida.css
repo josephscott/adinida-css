@@ -14,3 +14,12 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+/**
+ * grid
+ */
+
+.container {
+	margin: 0 auto;
+	padding: 0 10px;
+	max-width: 1200px;
+}
