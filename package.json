@@ -8,6 +8,9 @@
 	"scripts": {
 		"cat": "cat src/vars.css src/base.css src/grid.css > dist/adinida.css",
 		"minify": "node_modules/.bin/csso dist/adinida.css > dist/adinida.min.css",
-		"build": "npm run cat && npm run minify"
+		"build": "npm run cat && npm run minify",
+
+		"inline-css-docs": "sed '/start-css/,/end-css/{//!d;}' docs/index.html > docs/tmp.html && sed '/start-css/r dist/adinida.min.css' docs/tmp.html > docs/index.html && rm docs/tmp.html",
+		"docs": "npm run build && npm run inline-css-docs"
 	}
 }
