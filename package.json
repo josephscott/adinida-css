@@ -4,5 +4,10 @@
 	"devDependencies": {
 		"csso-cli": "3.0.0",
 		"postcss-custom-properties": "9.1.1"
+	},
+	"scripts": {
+		"cat": "cat src/base.css > dist/adinida.css",
+		"minify": "node_modules/.bin/csso dist/adinida.css > dist/adinida.min.css",
+		"build": "npm run cat && npm run minify"
 	}
 }
