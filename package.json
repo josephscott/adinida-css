@@ -1,0 +1,8 @@
+{
+	"name": "adinida-css",
+	"license": "MIT",
+	"devDependencies": {
+		"csso-cli": "3.0.0",
+		"postcss-custom-properties": "9.1.1"
+	}
+}
