@@ -1,7 +1,6 @@
 /**
  * base
  */
-
 html {
   box-sizing: border-box;
 }
@@ -9,3 +8,4 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
