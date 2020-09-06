@@ -23,3 +23,14 @@ html {
 	padding: 0 10px;
 	max-width: 1200px;
 }
+
+.row {
+	display: flex; 
+	flex-flow: row wrap;
+	justify-content: space-between;
+	width: 100%;
+}   
+
+.col {
+	flex: 1;
+}

@@ -1,2 +1,2 @@
 /*! adinida.css | https://github.com/josephscott/adinida-css | MIT License */
-html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}.container{margin:0 auto;padding:0 10px;max-width:1200px}
+html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}.container{margin:0 auto;padding:0 10px;max-width:1200px}.row{display:flex;flex-flow:row wrap;justify-content:space-between;width:100%}.col{flex:1}

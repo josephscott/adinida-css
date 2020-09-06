@@ -6,10 +6,29 @@
 	<title>Adinida CSS</title>
 	<!-- start-css --><style>
 /*! adinida.css | https://github.com/josephscott/adinida-css | MIT License */
-html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}.container{margin:0 auto;padding:0 10px;max-width:1200px}
+html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}.container{margin:0 auto;padding:0 10px;max-width:1200px}.row{display:flex;flex-flow:row wrap;justify-content:space-between;width:100%}.col{flex:1}
 	<!-- end-css --></style>
+
+	<style>
+	.doc-box {
+		border: 1px solid #879D69;
+		background-color: #EDF2D8;
+		padding: 10px;
+	}
+	</style>
 </head>
 <body>
+
+<div class="container">
+	<h1>Adinida CSS</h1>
+
+	<h3>Grid</h3>
+	<div class="row">
+		<div class="col doc-box">.col</div>
+		<div class="col doc-box">.col</div>
+		<div class="col doc-box">.col</div>
+	</div>
+</div>
 
 </body>
 </html>
