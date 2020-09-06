@@ -1,6 +1,6 @@
 SHELL=bash
 
-all: glue minify
+all: glue minify docs end
 
 glue:
 	@echo
@@ -13,3 +13,15 @@ minify:
 	@echo
 	@echo "--> Minify CSS."
 	node_modules/.bin/csso dist/adinida.css > dist/adinida.min.css
+
+docs:
+	@echo
+	@echo "--> Updating docs."
+	sed '/start-css/,/end-css/{//!d;}' docs/index.html > docs/tmp.html
+	sed '/start-css/r dist/adinida.min.css' docs/tmp.html > docs/index.html
+	rm docs/tmp.html
+
+end:
+	@echo
+	@echo "--> Done."
+	@echo
