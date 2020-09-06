@@ -1,4 +1,5 @@
 SHELL=bash
+.PHONY: docs
 
 all: glue minify docs end
 
@@ -27,4 +28,3 @@ end:
 	@echo
 
 
-.PHONY: docs
