@@ -1,6 +1,6 @@
 SHELL=bash
 
-all: glue
+all: glue minify
 
 glue:
 	@echo
@@ -9,3 +9,7 @@ glue:
 	cat src/base.css >> dist/adinida.css
 	cat src/grid.css >> dist/adinida.css
 
+minify:
+	@echo
+	@echo "--> Minify CSS."
+	node_modules/.bin/csso dist/adinida.css > dist/adinida.min.css
