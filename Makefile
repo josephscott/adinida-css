@@ -25,3 +25,6 @@ end:
 	@echo
 	@echo "--> Done."
 	@echo
+
+
+.PHONY: docs
