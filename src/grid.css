@@ -14,6 +14,16 @@
 	width: 100%;
 }   
 
+.row .col, .row [class^='col-'] {
+	margin: 0 0 10px 0;
+	padding: 5px;
+}
+
+.nogutter .col, .nogutter [class^='col-'] {
+	margin: 0;
+	padding: 0;
+}
+
 .col {
 	flex: 1;
 }
