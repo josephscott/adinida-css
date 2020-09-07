@@ -83,3 +83,9 @@ html {
 	width: 100%;
 }
 
+@media screen and ( max-width: 599px ) {
+	.col, [class^='col-'] {
+		flex: 0 1 100%;
+		max-width: 100%;
+	}
+}
