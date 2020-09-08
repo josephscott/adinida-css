@@ -13,6 +13,7 @@
 	--link-color: #1C77C3;
 	--link-color-hover: #D63230;
 	--blockquote-color: #f4f4f4;
+	--blockquote-border: #c4c4c4;
 	--blockquote-shadow: #747474;
 	--container-width: 1200px;
 }
@@ -50,6 +51,7 @@ blockquote {
 	box-shadow: -5px 5px 7px 0px var( --blockquote-shadow );
 	padding: 20px;
 	background-color: var( --blockquote-color );
+	border: 1px solid var( --blockquote-border );
 }
 
 cite:before {

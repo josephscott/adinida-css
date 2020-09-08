@@ -61,6 +61,7 @@ blockquote {
 	box-shadow: -5px 5px 7px 0px #747474;
 	padding: 20px;
 	background-color: #f4f4f4;
+	border: 1px solid #c4c4c4;
 }
 
 cite:before {
