@@ -9,6 +9,7 @@ glue:
 	cat src/vars.css > dist/adinida.css
 	cat src/base.css >> dist/adinida.css
 	cat src/grid.css >> dist/adinida.css
+	cat src/util.css >> dist/adinida.css
 
 variants:
 	@echo
