@@ -4,7 +4,12 @@
  * vars
  */  
 :root {
+	--font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next",
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+	--font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
+	--font-size: 1.0rem;
+	--line-height: 1.6;
 	--container-width: 1200px;
-	--font-family: Verdana, sans-serif;
 }
 

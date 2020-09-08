@@ -4,8 +4,13 @@
  * vars
  */  
 :root {
+	--font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next",
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+	--font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
+	--font-size: 1.0rem;
+	--line-height: 1.6;
 	--container-width: 1200px;
-	--font-family: Verdana, sans-serif;
 }
 
 /**
@@ -13,11 +18,18 @@
  */
 html {
 	box-sizing: border-box;
-	font-family: var( --font-family );
 }
 
 *, *:before, *:after {
 	box-sizing: inherit;
+}
+
+body {
+	font-family: var( --font-family );
+	font-size: var( --font-size );
+	line-height: var( --line-height );
+	margin: 0;
+	padding: 0;
 }
 
 /**

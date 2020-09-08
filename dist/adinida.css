@@ -9,13 +9,42 @@
  */
 html {
 	box-sizing: border-box;
-	font-family: Verdana
-,
-sans-serif;
 }
 
 *, *:before, *:after {
 	box-sizing: inherit;
+}
+
+body {
+	font-family: -apple-system
+,
+BlinkMacSystemFont
+,
+Avenir
+,
+"Avenir Next"
+,
+"Segoe UI"
+,
+"Roboto"
+,
+"Oxygen"
+,
+"Ubuntu"
+,
+"Cantarell"
+,
+"Fira Sans"
+,
+"Droid Sans"
+,
+"Helvetica Neue"
+,
+sans-serif;
+	font-size: 1.0rem;
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
 }
 
 /**
