@@ -4,6 +4,7 @@
  * vars
  */  
 :root {
+	--container-width: 1200px;
 	--font-family: Verdana, sans-serif;
 }
 
