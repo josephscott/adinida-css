@@ -19,88 +19,127 @@ html{box-sizing:border-box;font-family:Verdana,sans-serif}*,:after,:before{box-s
 <body>
 
 <div class="container">
-	<h1>Adinida CSS</h1>
+	<h1 id="top">Adinida CSS</h1>
 
-	<h3>Grid</h3>
+	<ul>
+		<li>
+			<a href="#text">Text</a>
+			<ul>
+				<li><a href="#text_headings">Headings</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#grid">Grid</a>
+			<ul>
+				<li><a href="#grid_flexible">Flexible</a></li>
+				<li><a href="#grid_column_sizes">Column Sizes</a></li>
+			</ul>
+		</li>
+	</ul>
 
-	<div class="row">
-		<div class="col doc-box">.col</div>
-	</div>
+	<h2 id="text">** Text **</h2>
 
-	<div class="row">
-		<div class="col doc-box">.col</div>
-		<div class="col doc-box">.col</div>
-		<div class="col doc-box">.col</div>
-	</div>
+		<h3 id="text_headings">Headings</h3>
+		<hr />
 
-	<div class="row">
-		<div class="col doc-box">.col</div>
-		<div class="col doc-box">.col</div>
-		<div class="col doc-box">.col</div>
-		<div class="col doc-box">.col</div>
-		<div class="col doc-box">.col</div>
-	</div>
+			<h1>Heading 1</h1>
+			<h2>Heading 2</h2>
+			<h3>Heading 3</h3>
+			<h4>Heading 4</h4>
+			<h5>Heading 5</h5>
+			<h6>Heading 6</h6>
 
-	<hr />
+			<p><a href="#top">[Top]</a></p>
 
-	<div class="row">
-		<div class="col-1 doc-box">.col-1</div>
-		<div class="col-11 doc-box">.col-11</div>
-	</div>
+	<h2 id="grid">** Grid **</h2>
 
-	<div class="row">
-		<div class="col-2 doc-box">.col-2</div>
-		<div class="col-10 doc-box">.col-10</div>
-	</div>
+		<h3 id="grid_flexible">Flexible</h3>
+		<hr />
 
-	<div class="row">
-		<div class="col-3 doc-box">.col-3</div>
-		<div class="col-9 doc-box">.col-9</div>
-	</div>
+			<div class="row">
+				<div class="col doc-box">.col</div>
+			</div>
 
-	<div class="row">
-		<div class="col-4 doc-box">.col-4</div>
-		<div class="col-8 doc-box">.col-8</div>
-	</div>
+			<div class="row">
+				<div class="col doc-box">.col</div>
+				<div class="col doc-box">.col</div>
+				<div class="col doc-box">.col</div>
+			</div>
 
-	<div class="row">
-		<div class="col-5 doc-box">.col-5</div>
-		<div class="col-7 doc-box">.col-7</div>
-	</div>
+			<div class="row">
+				<div class="col doc-box">.col</div>
+				<div class="col doc-box">.col</div>
+				<div class="col doc-box">.col</div>
+				<div class="col doc-box">.col</div>
+				<div class="col doc-box">.col</div>
+			</div>
 
-	<div class="row">
-		<div class="col-6 doc-box">.col-6</div>
-		<div class="col-6 doc-box">.col-6</div>
-	</div>
+			<p><a href="#top">[Top]</a></p>
 
-	<div class="row">
-		<div class="col-7 doc-box">.col-7</div>
-		<div class="col-5 doc-box">.col-5</div>
-	</div>
+		<h3 id="grid_column_sizes">Column Sizes</h3>
+		<hr />
 
-	<div class="row">
-		<div class="col-8 doc-box">.col-8</div>
-		<div class="col-4 doc-box">.col-4</div>
-	</div>
+			<div class="row">
+				<div class="col-1 doc-box">.col-1</div>
+				<div class="col-11 doc-box">.col-11</div>
+			</div>
 
-	<div class="row">
-		<div class="col-9 doc-box">.col-9</div>
-		<div class="col-3 doc-box">.col-3</div>
-	</div>
+			<div class="row">
+				<div class="col-2 doc-box">.col-2</div>
+				<div class="col-10 doc-box">.col-10</div>
+			</div>
 
-	<div class="row">
-		<div class="col-10 doc-box">.col-10</div>
-		<div class="col-2 doc-box">.col-2</div>
-	</div>
+			<div class="row">
+				<div class="col-3 doc-box">.col-3</div>
+				<div class="col-9 doc-box">.col-9</div>
+			</div>
 
-	<div class="row">
-		<div class="col-11 doc-box">.col-11</div>
-		<div class="col-1 doc-box">.col-1</div>
-	</div>
+			<div class="row">
+				<div class="col-4 doc-box">.col-4</div>
+				<div class="col-8 doc-box">.col-8</div>
+			</div>
 
-	<div class="row">
-		<div class="col-12 doc-box">.col-12</div>
-	</div>
+			<div class="row">
+				<div class="col-5 doc-box">.col-5</div>
+				<div class="col-7 doc-box">.col-7</div>
+			</div>
+
+			<div class="row">
+				<div class="col-6 doc-box">.col-6</div>
+				<div class="col-6 doc-box">.col-6</div>
+			</div>
+
+			<div class="row">
+				<div class="col-7 doc-box">.col-7</div>
+				<div class="col-5 doc-box">.col-5</div>
+			</div>
+
+			<div class="row">
+				<div class="col-8 doc-box">.col-8</div>
+				<div class="col-4 doc-box">.col-4</div>
+			</div>
+
+			<div class="row">
+				<div class="col-9 doc-box">.col-9</div>
+				<div class="col-3 doc-box">.col-3</div>
+			</div>
+
+			<div class="row">
+				<div class="col-10 doc-box">.col-10</div>
+				<div class="col-2 doc-box">.col-2</div>
+			</div>
+
+			<div class="row">
+				<div class="col-11 doc-box">.col-11</div>
+				<div class="col-1 doc-box">.col-1</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12 doc-box">.col-12</div>
+			</div>
+
+			<p><a href="#top">[Top]</a></p>
+
 </div>
 
 </body>
