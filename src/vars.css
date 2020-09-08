@@ -10,6 +10,8 @@
 	--font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
 	--font-size: 1.0rem;
 	--line-height: 1.6;
+	--link-color: #1C77C3;
+	--link-color-hover: #D63230;
 	--container-width: 1200px;
 }
 

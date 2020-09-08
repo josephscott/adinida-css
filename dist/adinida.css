@@ -47,6 +47,15 @@ sans-serif;
 	padding: 0;
 }
 
+a {
+	color: #1C77C3;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #D63230;
+	text-decoration: underline;
+}
 /**
  * grid
  */
