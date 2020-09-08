@@ -56,6 +56,17 @@ a:hover {
 	color: #D63230;
 	text-decoration: underline;
 }
+
+blockquote {
+	box-shadow: -5px 5px 7px 0px #747474;
+	padding: 20px;
+	background-color: #f4f4f4;
+}
+
+cite:before {
+	content: "\2014";
+	padding-right: 7px;
+}
 /**
  * grid
  */
