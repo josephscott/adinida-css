@@ -112,3 +112,9 @@ sans-serif;
 .pull-left {
 	float: left !important;
 }
+
+.clearfix {
+	display: block;
+	content: "";
+	clear: both;
+}
