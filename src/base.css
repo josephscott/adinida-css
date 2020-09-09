@@ -63,3 +63,13 @@ thead {
 tfoot {
 	border-top: 1px solid #c9c9c9;
 }
+
+code, kbd, pre, samp, tt {
+	font-family: var( --font-family-mono );
+}
+
+code, kbd {
+  font-size: 90%;
+  white-space: pre-wrap;
+  color: #e83e8c;
+}
