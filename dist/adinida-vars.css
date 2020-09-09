@@ -58,6 +58,31 @@ cite:before {
 	content: "\2014";
 	padding-right: 7px;
 }
+
+table {
+	border: none;
+	border-collapse: collapse;
+	border-spacing: 0;
+	text-align: left;
+	width: 100%
+}
+
+table.stripes tr:nth-of-type( 2n ) {
+	background-color: #f1f1f1;
+}
+
+td, th {
+	padding: 5px;
+	vertical-align: middle;
+}
+
+thead {
+	border-bottom: 1px solid #c9c9c9;
+}
+
+tfoot {
+	border-top: 1px solid #c9c9c9;
+}
 /**
  * grid
  */
