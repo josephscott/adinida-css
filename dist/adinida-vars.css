@@ -97,6 +97,10 @@ code, kbd {
 img {
 	max-width: 100%;
 }
+
+meter {
+	height: 30px;
+}
 /**
  * grid
  */
