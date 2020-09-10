@@ -93,6 +93,10 @@ code, kbd {
   white-space: pre-wrap;
   color: #e83e8c;
 }
+
+img {
+	max-width: 100%;
+}
 /**
  * grid
  */
