@@ -10,6 +10,7 @@ glue:
 	cat src/base.css >> dist/adinida.css
 	cat src/grid.css >> dist/adinida.css
 	cat src/util.css >> dist/adinida.css
+	cat src/form.css >> dist/adinida.css
 
 variants:
 	@echo
