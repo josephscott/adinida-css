@@ -222,5 +222,7 @@ meter, progress {
  */
 
 input {
+	font-size: 100%;
+	padding: 7px;
 	width: 100%;
 }
