@@ -98,7 +98,7 @@ img {
 	max-width: 100%;
 }
 
-meter {
+meter, progress {
 	height: 30px;
 }
 /**
