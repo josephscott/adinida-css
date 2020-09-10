@@ -220,3 +220,7 @@ meter, progress {
 /**
  * form
  */
+
+input {
+	width: 100%;
+}
