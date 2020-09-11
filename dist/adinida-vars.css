@@ -201,6 +201,10 @@ meter, progress {
 	content: "";
 	clear: both;
 }
+
+.nobullets {
+	list-style-type: none;
+}
 /**
  * form
  */
@@ -209,4 +213,10 @@ select, input {
 	font-size: 100%;
 	padding: 7px;
 	width: 100%;
+}
+
+[type="checkbox"], [type="radio"] {
+	width: 15px;
+	height: 15px;
+	margin-right: 15px;
 }
