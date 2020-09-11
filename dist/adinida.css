@@ -225,10 +225,14 @@ meter, progress {
  * form
  */
 
-select, input {
+select, input, textarea {
 	font-size: 100%;
 	padding: 7px;
 	width: 100%;
+}
+
+textarea {
+	font-size: 115%;
 }
 
 [type="checkbox"], [type="radio"] {
